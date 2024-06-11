@@ -19,3 +19,9 @@ def divide(x, y):
 def pow(x,y):
     """Power function"""
     return x ** y
+
+def modulo(x, y):
+    """Modulo Operation"""
+    if y == 0:
+        raise ValueError("Cannot divide by zero!")
+    return x % y
