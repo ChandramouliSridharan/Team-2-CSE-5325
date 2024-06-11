@@ -19,3 +19,7 @@ def divide(x, y):
 def pow(x,y):
     """Power function"""
     return x ** y
+
+def sqrt(x):
+    """Square function"""
+    return x ** 0.5
